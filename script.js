@@ -1,3 +1,5 @@
+alert("A cada três jogadas, uma casa preenchida explode. Cuidado!");
+
 let tabuleiro = ['', '', '', '', '', '', '', '', ''];
 let vez = 'X';
 let jogoAtivo = true;
@@ -18,7 +20,6 @@ function handleSquareClick(square) {
     
     tabuleiro[index] = vez;
     square.textContent = vez;
-    square.style.fontSize = '40px';
     square.style.fontWeight = 'bold';
 
     if (checkWinner()) {

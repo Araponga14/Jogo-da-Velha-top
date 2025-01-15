@@ -31,6 +31,7 @@ body {
     border: 1px solid black;
     text-align: center;
     place-content: center;
+    font-size: 50px;
 }
 
 h1 {
@@ -62,4 +63,27 @@ footer {
 
 p {
     margin-top: 100px;
+    margin-left: 20px;
 }
+
+/* Ajustes para telas muito pequenas (ex: celulares menores) */
+@media (max-width: 600px) {
+
+    .board {
+        width: 550px;
+        height: 550px;
+        row-gap: 30px;
+    }
+
+    .square {
+        width: 150px;
+        height: 150px;
+        font-size: 75px;
+    }
+
+    .button {
+        width: 150px;
+        height: 50px;
+    }
+}
+
