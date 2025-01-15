@@ -67,7 +67,7 @@ p {
 }
 
 /* Ajustes para telas muito pequenas (ex: celulares menores) */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     .board {
         width: 550px;
